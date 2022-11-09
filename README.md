@@ -1,17 +1,17 @@
 # updater
 
-Simple app that runs git fetch && git pull --ff-only in all subdirectories of the current directory.
+Simple app that runs `git checkout main && git fetch && git pull --ff-only` in all subdirectories of the current directory.
 I could have used a shell script, but it was easier to write it in Go.
 
 ## Installation
 
-```
+```sh
 go install github.com/SuddenGunter/updater@v0.1.0
 ```
 
 ## Usage
 
-```
+```sh
 $ updater
 2022/11/10 01:38:19 puller: 3, starting
 2022/11/10 01:38:19 puller: 1, starting
