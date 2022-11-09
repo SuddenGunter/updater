@@ -6,7 +6,7 @@ I could have used a shell script, but it was easier to write it in Go.
 ## Installation
 
 ```
-go get github.com/SuddenGunter/updater
+go install github.com/SuddenGunter/updater@v0.1.0
 ```
 
 ## Usage
